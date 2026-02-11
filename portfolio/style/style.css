@@ -195,3 +195,79 @@ main {
     font-size: 16px;
     font-weight: regular;
 }
+
+.resume_title {
+    text-align: center;
+    margin-top: 130px;
+    font-size: 35px;
+    font-weight: bold;
+}
+
+.resume_container {
+    display: flex;
+    gap: 24px;
+    margin-left: 230px;
+    margin-right: 230px;
+    margin-top: 113px;
+}
+
+.resume-column-title {
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.experience h4 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #474747;
+}
+
+.experience h5 {
+    font-size: 20px;
+    font-weight: semibold;
+    color: #757575;
+}
+
+.experience-description {
+    font-size: 16px;
+    font-weight: regular;
+    color: #757575;
+    padding-right: 47px;
+
+}
+
+.resume-column hr {
+    margin-top: 30px;
+}
+
+.Cv_button {
+    text-align: center;
+    margin-top: 50px;
+}
+
+footer {
+    margin-top: 243px;
+    padding: 130px 230px;
+    display: flex;
+    gap: 117px;
+}
+
+.footer_column {
+    width: 50%;
+}
+
+footer input[type="text"],
+footer input[type="email"],
+footer textarea {
+    height: 64px;
+    border-radius: 5px;
+    background-color: white;
+    display: block;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 24px;
+    border: none;
+    font-size: 16px;
+    font-weight: regular;
+    color: #757575;
+}
