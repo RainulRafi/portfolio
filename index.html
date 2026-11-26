@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover">
+  <meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'self'; style-src 'self' https://fonts.googleapis.com; font-src https://fonts.gstatic.com; img-src 'self'; base-uri 'none'; form-action 'none'; object-src 'none'">
+  <meta name="referrer" content="no-referrer">
+  <meta name="description" content="Rainul Hossain Rafi, Flutter app developer from Dhaka. Cross-platform mobile apps with clean architecture, offline storage and polished interfaces.">
+  <title>Rainul Hossain Rafi, Flutter App Developer</title>
+
+  <link rel="icon" href="favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700&family=Sora:wght@500;600;700&display=swap">
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+
+  <header class="site-header">
+    <div class="wrap bar">
+      <a class="brand" href="#top">Rainul Rafi</a>
+      <nav aria-label="Main">
+        <a href="#projects">Projects</a>
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#education">Education</a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <a class="header-cv" href="assets/Rainul_Hossain_Rafi_CV.pdf" download>CV</a>
+    </div>
+  </header>
+
+  <main id="top">
+
+    <section class="hero wrap">
+      <div class="hero-grid">
+        <div class="hero-text">
+          <h1 aria-label="Rainul Hossain Rafi">
+            <span class="line"><span><span class="w d1"><span class="wi">Rainul</span></span> <span class="w d2"><span class="wi">Hossain</span></span></span></span>
+            <span class="line"><span><em class="w d3"><span class="wi">Rafi</span></em></span></span>
+          </h1>
+          <div class="hero-rule" aria-hidden="true"></div>
+          <div class="hero-body">
+            <p class="hero-sub">Flutter app developer building cross-platform mobile apps with clean architecture, offline storage and polished interfaces.</p>
+            <p class="hero-actions">
+              <a class="btn btn-solid" href="#projects">See my projects</a>
+              <a class="btn btn-outline" href="assets/Rainul_Hossain_Rafi_CV.pdf" download>Download CV</a>
+            </p>
+          </div>
+        </div>
+
+        <figure class="portrait">
+          <div class="portrait-frame">
+            <img src="assets/images/rafi.webp" width="800" height="1000" alt="Portrait of Rainul Hossain Rafi, smiling and looking to the side">
+          </div>
+          <figcaption>Dhaka, Bangladesh</figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <div class="ticker" aria-hidden="true">
+      <div class="ticker-track"><div class="ticker-group"><span>Flutter</span><span>Dart</span><span>Provider</span><span>SQLite</span><span>REST API</span><span>fl_chart</span><span>Clean architecture</span><span>Responsive UI</span><span>Figma to Flutter</span><span>Git</span></div><div class="ticker-group"><span>Flutter</span><span>Dart</span><span>Provider</span><span>SQLite</span><span>REST API</span><span>fl_chart</span><span>Clean architecture</span><span>Responsive UI</span><span>Figma to Flutter</span><span>Git</span></div></div>
+    </div>
+
+    <section id="projects" class="projects">
+      <div class="wrap section-head">
+        <h2>Selected projects</h2>
+      </div>
+
+      <article class="project">
+        <div class="wrap project-head">
+          <div class="project-title">
+            <h3>Finance Tracker</h3>
+            <p class="stack">Android budget tracker</p>
+          </div>
+          <div class="project-info">
+            <p class="summary">Every spending category has a monthly budget, and each expense reduces what is left. Everything is stored on the phone.</p>
+            <p class="label">Built with</p>
+            <ul class="built">
+              <li>Flutter</li><li>Dart</li><li>Provider</li><li>SQLite</li><li>fl_chart</li>
+            </ul>
+            <p class="links">
+              <a class="btn btn-solid" href="https://github.com/RainulRafi/finance-tracker/releases" target="_blank" rel="noopener noreferrer">Download APK</a>
+              <a class="btn btn-outline" href="https://github.com/RainulRafi/finance-tracker" target="_blank" rel="noopener noreferrer">Details on GitHub</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="band">
+          <div class="gallery" role="region" aria-label="Finance Tracker screenshots" tabindex="0">
+            <figure><img src="assets/images/finance-home.webp" width="540" height="1170" loading="lazy" alt="Home screen showing the remaining monthly budget and spending sections"><figcaption>Home</figcaption></figure>
+            <figure><img src="assets/images/finance-home-dark.webp" width="540" height="1170" loading="lazy" alt="Home screen in dark theme"><figcaption>Dark theme</figcaption></figure>
+            <figure><img src="assets/images/finance-expense.webp" width="540" height="1170" loading="lazy" alt="Expense screen with categories and added expenses"><figcaption>Expenses</figcaption></figure>
+            <figure><img src="assets/images/finance-history.webp" width="540" height="1170" loading="lazy" alt="History sheet listing past expenses in the Transport category"><figcaption>History</figcaption></figure>
+            <figure><img src="assets/images/finance-stats.webp" width="540" height="1170" loading="lazy" alt="Statistics screen with a donut chart and a weekly bar chart"><figcaption>Statistics</figcaption></figure>
+            <figure><img src="assets/images/finance-warning.webp" width="540" height="1170" loading="lazy" alt="Dialog warning that a budget is running low"><figcaption>Budget warning</figcaption></figure>
+          </div>
+        </div>
+      </article>
+
+      <article class="project">
+        <div class="wrap project-head">
+          <div class="project-title">
+            <h3>ShopLite</h3>
+            <p class="stack">Android shopping app</p>
+          </div>
+          <div class="project-info">
+            <p class="summary">A practice shopping app that covers a whole product, from browsing and the cart to checkout, orders and an account area. Nothing is charged and nothing is delivered.</p>
+            <p class="label">Built with</p>
+            <ul class="built">
+              <li>Flutter</li><li>Dart</li><li>Provider</li><li>Dio</li><li>SQLite</li><li>flutter_secure_storage</li><li>REST API</li>
+            </ul>
+            <p class="links">
+              <a class="btn btn-solid" href="https://github.com/RainulRafi/shoplite/releases/latest" target="_blank" rel="noopener noreferrer">Download APK</a>
+              <a class="btn btn-outline" href="https://github.com/RainulRafi/shoplite" target="_blank" rel="noopener noreferrer">Details on GitHub</a>
+            </p>
+          </div>
+        </div>
+
+        <div class="band">
+          <div class="gallery" role="region" aria-label="ShopLite screenshots" tabindex="0">
+            <figure><img src="assets/images/shoplite-home.webp" width="540" height="1170" loading="lazy" alt="ShopLite home screen with search, categories and deals"><figcaption>Home</figcaption></figure>
+            <figure><img src="assets/images/shoplite-shop.webp" width="540" height="1170" loading="lazy" alt="Shop screen with search, sort and filter"><figcaption>Shop</figcaption></figure>
+            <figure><img src="assets/images/shoplite-details.webp" width="540" height="1170" loading="lazy" alt="Product details screen"><figcaption>Product</figcaption></figure>
+            <figure><img src="assets/images/shoplite-cart.webp" width="540" height="1170" loading="lazy" alt="Cart screen with a coupon field"><figcaption>Cart</figcaption></figure>
+            <figure><img src="assets/images/shoplite-checkout.webp" width="540" height="1170" loading="lazy" alt="Checkout screen with delivery and payment options"><figcaption>Checkout</figcaption></figure>
+            <figure><img src="assets/images/shoplite-order.webp" width="540" height="1170" loading="lazy" alt="Order placed confirmation screen"><figcaption>Order placed</figcaption></figure>
+            <figure><img src="assets/images/shoplite-account.webp" width="540" height="1170" loading="lazy" alt="Account screen with orders, addresses and wishlist"><figcaption>Account</figcaption></figure>
+            <figure><img src="assets/images/shoplite-login.webp" width="540" height="1170" loading="lazy" alt="Sign in screen with a demo account"><figcaption>Sign in</figcaption></figure>
+            <figure><img src="assets/images/shoplite-settings.webp" width="540" height="1170" loading="lazy" alt="Settings screen with light, dark and system themes"><figcaption>Settings</figcaption></figure>
+            <figure><img src="assets/images/shoplite-dark.webp" width="540" height="1170" loading="lazy" alt="Home screen in the dark theme"><figcaption>Dark theme</figcaption></figure>
+          </div>
+        </div>
+      </article>
+    </section>
+
+    <section id="about" class="section wrap">
+      <h2>About</h2>
+      <div class="content">
+        <p class="lead">Comfortable owning an app end to end, from database schema to polished UI.</p>
+        <p>Flutter app developer skilled in building cross-platform mobile applications with Dart and Flutter. Proficient in state management with Provider, REST API integration, local storage with SQLite, and data visualization with charts.</p>
+        <p>Strong in clean architecture, responsive UI, and writing scalable, maintainable code. Always learning the latest in the Flutter ecosystem.</p>
+
+        <dl class="facts">
+          <div><dt>2</dt><dd>Flutter apps built</dd></div>
+          <div><dt>3.37</dt><dd>CGPA in B.Sc. CSE</dd></div>
+          <div><dt>5.00</dt><dd>GPA in SSC and HSC</dd></div>
+          <div><dt>6</dt><dd>Programming languages</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="skills" class="section wrap">
+      <h2>Skills</h2>
+      <div class="content">
+        <h3 class="group">Flutter</h3>
+        <dl class="skills">
+          <div><dt>Cross-platform</dt><dd>Mobile app development for Android and iOS</dd></div>
+          <div><dt>Language</dt><dd>Dart, with strong OOP fundamentals</dd></div>
+          <div><dt>State management</dt><dd>Provider (ChangeNotifier), stateful widgets</dd></div>
+          <div><dt>Backend integration</dt><dd>REST API, HTTP, JSON, Postman API testing</dd></div>
+          <div><dt>Offline storage</dt><dd>SQLite (sqflite), Shared Preferences</dd></div>
+          <div><dt>Data visualization</dt><dd>fl_chart: donut, bar and line charts</dd></div>
+          <div><dt>UI/UX and performance</dt><dd>Figma to Flutter UI, responsive design, light and dark theming</dd></div>
+          <div><dt>Architecture</dt><dd>Clean layered architecture, repository pattern</dd></div>
+          <div><dt>Version control</dt><dd>Git and GitHub</dd></div>
+          <div><dt>Distribution</dt><dd>APK build and release, Google Play Store ready</dd></div>
+        </dl>
+
+        <h3 class="group">Additional</h3>
+        <dl class="skills">
+          <div><dt>Languages</dt><dd>Dart, Python, C, C++, JavaScript, SQL</dd></div>
+          <div><dt>Also familiar with</dt><dd>Node.js, Express.js, MongoDB, React, Tailwind CSS, Android Studio, VS Code</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section id="education" class="section wrap">
+      <h2>Education</h2>
+      <div class="content">
+        <ul class="timeline">
+          <li>
+            <span class="label">Training, now</span>
+            <div>
+              <h3>App Development with Flutter and AI</h3>
+              <p>Ostad. Building cross-platform mobile apps with Flutter and Dart through hands-on projects, integrating AI and machine learning features into Flutter apps, and covering state management, REST API integration, local storage and clean app architecture.</p>
+            </div>
+          </li>
+          <li>
+            <span class="label">Jan 2023 to now</span>
+            <div>
+              <h3>B.Sc. in Computer Science and Engineering</h3>
+              <p>Northern University Bangladesh. CGPA 3.52.</p>
+            </div>
+          </li>
+          <li>
+            <span class="label">2021</span>
+            <div>
+              <h3>Higher Secondary Certificate, Science</h3>
+              <p>Dr. Mahbubur Rahman Mollah College. GPA 5.00.</p>
+            </div>
+          </li>
+          <li>
+            <span class="label">2019</span>
+            <div>
+              <h3>Secondary School Certificate, Science</h3>
+              <p>Shamsul Haque Khan School and College. GPA 5.00.</p>
+            </div>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section id="contact" class="section wrap">
+      <h2>Contact</h2>
+      <div class="content">
+        <p class="lead">Open to junior Flutter roles and internships. Email is the fastest way to reach me.</p>
+        <ul class="contact-list">
+          <li><span class="label">Email</span><a href="#contact" data-email data-email-text>Show email</a></li>
+          <li><span class="label">Phone</span><a href="#contact" data-phone>Show phone</a></li>
+          <li><span class="label">Location</span><span class="value">Dhaka, Bangladesh</span></li>
+          <li><span class="label">GitHub</span><a href="https://github.com/RainulRafi" target="_blank" rel="noopener noreferrer">github.com/RainulRafi</a></li>
+          <li><span class="label">LinkedIn</span><a href="https://linkedin.com/in/rainulhossainrafi" target="_blank" rel="noopener noreferrer">linkedin.com/in/rainulhossainrafi</a></li>
+        </ul>
+        <p class="contact-cta">
+          <a class="btn btn-solid" href="assets/Rainul_Hossain_Rafi_CV.pdf" download>Download CV</a>
+        </p>
+      </div>
+    </section>
+
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">
+      <p>&copy; <span data-year>2026</span> Rainul Hossain Rafi. Built with plain HTML, CSS and JavaScript.</p>
+      <p>This site sets no cookies, runs no analytics and collects no personal data.</p>
+    </div>
+  </footer>
+
+  <nav class="tabbar" aria-label="Sections">
+    <a href="#top" data-tab="top">Home</a>
+    <a href="#projects" data-tab="projects">Work</a>
+    <a href="#about" data-tab="about">About</a>
+    <a href="#skills" data-tab="skills">Skills</a>
+    <a href="#contact" data-tab="contact">Contact</a>
+  </nav>
+
+</body>
+</html>
